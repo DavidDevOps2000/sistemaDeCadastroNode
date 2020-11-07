@@ -1,0 +1,15 @@
+{
+  "name": "sistemadecadastro",
+  "version": "1.0.0",
+  "description": "Sistema para cadastramento de funcionários",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
