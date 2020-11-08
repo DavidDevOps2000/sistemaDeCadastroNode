@@ -1,0 +1,69 @@
+.home-fundo {                                   /*Usando*/
+    background-image: url("../img/fun.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Arial';
+}
+
+
+.menuSanduiche {/* antigo navbar-toggler*/
+    position: absolute;
+    top: 23px;
+    border-radius: 40px;
+}
+
+
+.fundoMenuSanduiche{/*dropright*/ /*Usando*/
+    font-size: 22px;
+    text-align: center;
+    align-items: flex-end;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(13px);
+    filter: blur(0px);
+}
+
+#vlrApelido{
+    color:white;
+    font-size: 150%;
+}
+
+.subMenuInterno{/*dropright*/ /*Usando*/
+    font-size: 18px;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(13px);
+    filter: blur(0px);
+}
+
+
+.divMsgCentro{/*Usando*/
+position: relative;
+display: inline-block;
+justify-content: center;
+align-items: center;
+text-align:center;
+transform:translate(50%);
+-webkit-filter: blur(0px);
+-moz-filter: blur(0px);
+-o-filter: blur(0px);
+-ms-filter: blur(13px);
+filter: blur(0px);
+}
+
+.msgCentro {/*container-fluid*/    /*Usando*/
+    color:white;
+    font-size: 25px;
+
+}
+
+.btn_queSomos{/*btn_que*/        /* Usando*/
+    border-radius:13px;
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}

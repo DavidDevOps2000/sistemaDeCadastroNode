@@ -1,0 +1,55 @@
+.princ{
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.card1 {
+    position:relative;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card2 {
+    position:relative;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card3 {
+    position:relative;
+    text-align: justify;
+    color: white;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card4 {
+    position:relative;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card5 {
+    position:relative;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card6 {
+    position:relative;
+    text-align: justify;
+    color: white;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}

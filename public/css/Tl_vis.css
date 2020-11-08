@@ -1,0 +1,72 @@
+.btn_arendondado{
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+
+
+.btn_arendondado_Limpar:hover{
+    border: solid #A5A5A5 1px;
+    background: #FB8080;
+    color: white;
+    background-image: -webkit-linear-gradient(top,white,orange);
+    background-image: -moz-linear-gradient(top, white,orange);
+    background-image: -ms-linear-gradient(top, white,orange);
+    background-image: -o-linear-gradient(top, white,orange);
+    background-image: linear-gradient(to bottom,white,orange);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn_arendondado_Confirmar:hover{
+    border: solid #A5A5A5 1px;
+    background:greenyellow;
+    color: white;
+    background-image: -webkit-linear-gradient(top,white,green);
+    background-image: -moz-linear-gradient(top, white,green);
+    background-image: -ms-linear-gradient(top, white,green);
+    background-image: -o-linear-gradient(top, white,green);
+    background-image: linear-gradient(top,white,green);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+.btn_arendondado_edit:hover{
+    border: solid #A5A5A5 1px;
+    background: #FB8080;
+    color: white;
+    background-image: -webkit-linear-gradient(top,whitE,#00BFFF);
+    background-image: -moz-linear-gradient(top, white#00BFFF);
+    background-image: -ms-linear-gradient(top, white#00BFFF);
+    background-image: -o-linear-gradient(top, white#00BFFF);
+    background-image: linear-gradient(to bottom,white#00BFFF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn_arendondado_del:hover{
+    border: solid #A5A5A5 1px;
+    background:greenyellow;
+    color: white;
+    background-image: -webkit-linear-gradient(top,white,RED);
+    background-image: -moz-linear-gradient(top, white,RED);
+    background-image: -ms-linear-gradient(top, white,RED);
+    background-image: -o-linear-gradient(top, white,RED);
+    background-image: linear-gradient(top,white,RED);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+.panel {
+    background-color: rgba(251, 251, 251, 0.891);
+}

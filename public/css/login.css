@@ -1,0 +1,9 @@
+
+.formPrincLogin{  
+    background-image: url("../img/fundoLogin.png"); 
+    border-radius: 10px;
+}
+
+.inputLoginGeral{
+    border-radius: 20px;
+}

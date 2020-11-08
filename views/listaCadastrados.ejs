@@ -1,0 +1,44 @@
+<%- include ('partials/header.ejs') %>
+
+<body>
+    <%- include ('partials/navbar.ejs') %>
+
+    <div class="container panelAround">
+        <br>
+        <h2 style="text-align: center;">Funcionários cadastrados</h2>
+        <hr>
+        <br>
+        <table id="tableList" 
+                data-toggle="table"
+                data-height="350" 
+                data-search="true" 
+                data-search-align="center"
+                accesskey="" 
+                data-side-pagination="client" 
+                data-page-list="[5,10,15]" 
+                data-pagination-first-text="First"
+                data-pagination-pre-text="Voltar" 
+                data-pagination-next-text="Próximo" 
+                data-pagination-last-text="Last"
+                data-url='' 
+                class="table table-striped table-bordered table-sm" cellspacing="0">
+            <thead>
+                <tr>
+                    <th class="th-sm text-center">Nome
+                    </th>
+                    <th class="th-sm text-center">CPF (últimos digitos)
+                    </th>
+                    <th class="th-sm text-center">Telefone
+                    </th>
+                    <th class="th-sm text-center">Email
+                    </th>
+                    <th class="th-sm text-center">Departamento
+                    </th>
+                    <th class="th-sm text-center">Editar
+                    </th>
+                </tr>
+            </thead>
+            <br>
+    </div>
+</body>
+<%- include('partials/footer.ejs')%>

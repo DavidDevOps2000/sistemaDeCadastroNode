@@ -1,7 +1,7 @@
-.cadastrarFunc{
+body{
     background-color: bisque;
 }
-.painel_cadastro{
+.panelAround{
     background-color: white;
     margin-top: 5vh;
     border-radius: 15px;
