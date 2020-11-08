@@ -21,6 +21,11 @@ app.get('/', (req, res)=>{//pagina inicial já roteando para cadastro.
     res.render('index');
 });
 
+app.get('/cadastrar', (req, res)=>{
+    res.render('cadastrar');
+
+});
+
 app.listen(8888, (req, res)=>{//criando uma função args para verificar se o servidor express está funcionando
     console.log('server running')
 });
