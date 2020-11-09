@@ -24,8 +24,8 @@ const Funcionario = connection.define('tbl_func',{
 
 
 
-Departamento.hasMany(Funcionario);//tbl_depar tem muitos funcionarios
-Funcionario.belongsTo(Departamento);// tbl_func pertence à tbl_depar ou seja de 1:1
+//Departamento.hasMany(Funcionario);//tbl_depar tem muitos funcionarios
+//Funcionario.belongsTo(Departamento);// tbl_func pertence à tbl_depar ou seja de 1:1
 
 //Funcionario.sync({force:true}).then(()=>{console.log('tabela funcionario criada')});//syncronizando e fazendo update
 
