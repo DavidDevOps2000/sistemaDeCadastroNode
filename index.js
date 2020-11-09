@@ -25,11 +25,19 @@ app.set('view engine', 'ejs');//SETANDO PARA O FRONT.
 
 app.get('/', (req, res) => { res.render('index'); });
 
-app.get('/cadastrar', (req, res) => {
-    res.render('cadastrar')
-});
+app.get('/cadastrar', (req, res) => { res.render('cadastrar')});
 
-app.post('/listar', (req, res) => {
+app.get('/listar', (req, res)=>{ res.render('listaCadastrados');});
+
+app.get('/listasFunc', (req, res)=>{
+
+    Funcionario.findAll({raw:true})
+    .then(valoresFunc=>{
+        return res.json(valoresFunc);
+    });
+})
+
+app.post('', (req, res) => {//Salvando no Banco
     var nome_func = req.body.inNome;
     var cpf_func = req.body.inCpf;
     var tel_func = req.body.inTel;

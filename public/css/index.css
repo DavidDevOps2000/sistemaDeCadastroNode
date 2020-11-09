@@ -1,0 +1,17 @@
+
+.bem-vindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(30px + 2vmin);
+    text-align: center;
+    border-radius:30;
+    position: relative;
+    z-index: 4;
+    border:black;
+    margin-top: 5vh;
+    color:white; 
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px
+  
+  }

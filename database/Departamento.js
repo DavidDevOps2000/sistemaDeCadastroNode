@@ -8,6 +8,7 @@ const Departamento = connection.define('tbl_depar',{
     }
 });
 
+
 //Departamento.sync({force:true}).then(()=>{console.log('tabela Departamento Criada')});//atualizando as tabela juntamente com o sync de departamento
 
 module.exports = Departamento;
