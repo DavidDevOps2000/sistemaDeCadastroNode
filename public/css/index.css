@@ -12,6 +12,7 @@
     border:black;
     margin-top: 5vh;
     color:white; 
-    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px
-  
-  }
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+    border: brown; 
+    border-radius: 15px; background-color: chocolate;
+    }

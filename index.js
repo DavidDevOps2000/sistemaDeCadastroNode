@@ -30,21 +30,22 @@ app.get('/cadastrar', (req, res) => { res.render('cadastrar')});
 app.get('/listar', (req, res)=>{ res.render('listaCadastrados');});
 
 app.get('/listasFunc', (req, res)=>{
-
-    Funcionario.findAll({raw:true})
+    Funcionario.findAll(
+        {raw:true},//fazendo uma ligacao com o Departamento
+        )
     .then(valoresFunc=>{
+        console.log(valoresFunc)
         return res.json(valoresFunc);
     });
 })
 
-app.post('', (req, res) => {//Salvando no Banco
+app.post('/cadastro', (req, res) => {//Salvando no Banco
     var nome_func = req.body.inNome;
     var cpf_func = req.body.inCpf;
     var tel_func = req.body.inTel;
     var email_func = req.body.inEmail;
     var nome_depar = req.body.inDepar;
 
-console.log(nome_func);
     Departamento
         .create({
             nome_depar: nome_depar

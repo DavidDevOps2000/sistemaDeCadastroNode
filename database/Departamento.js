@@ -7,7 +7,7 @@ const Departamento = connection.define('tbl_depar',{
         allowNull: false
     }
 });
-
+//Depar é 1 Func é 2
 
 //Departamento.sync({force:true}).then(()=>{console.log('tabela Departamento Criada')});//atualizando as tabela juntamente com o sync de departamento
 
